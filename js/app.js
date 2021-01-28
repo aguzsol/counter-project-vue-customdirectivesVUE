@@ -12,10 +12,12 @@ const app = Vue.createApp({
     },
 
     computed: {
-        numberIsPositive(){
-            let text = this.counter >= 0? 'positive' : 'negative'
-            return text
-        }
+        isPositive(){
+            return this.counter >= 0
+        },
+        isNegative(){
+            return this.counter < 0
+        },
     }
 })
 
