@@ -9,6 +9,13 @@ const app = Vue.createApp({
         updateCounter(num) {
             this.counter += num
         },
+    },
+
+    computed: {
+        numberIsPositive(){
+            let text = this.counter >= 0? 'positive' : 'negative'
+            return text
+        }
     }
 })
 

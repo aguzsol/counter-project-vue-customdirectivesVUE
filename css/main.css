@@ -16,6 +16,7 @@ body {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
   border-radius: 0.2rem;
 }
+
 #counter {
   color: var(--mainGreen);
   font-size: 10rem;
